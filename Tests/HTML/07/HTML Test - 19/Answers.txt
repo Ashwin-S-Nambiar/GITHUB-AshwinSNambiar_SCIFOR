@@ -1,0 +1,19 @@
+Q1. What is HTML?
+Ans: HTML or HyperText Markup Language is markup language that used to create 
+     the structure and content of webpages.
+
+Q2. What are the features of HTML?
+Ans: (-) It's platform independent.
+     (-) Easy to learn.
+     (-) It is not case sensitive.
+     (-) Can create webpages easily.
+     (-) Can be used to stream audio and video.
+
+Q3. What is MIME?
+Ans: MIME or Multipurpose Internet Mail Extensions, is an internet standard
+     that is used to identify the type of object being transferred across the internet.
+     It indicates format and nature of a document or file.
+
+Q5. What are Void elements in HTML ?
+Ans: Void elements are the elements that can only have a start tags and  
+     cannot have content in them. They include br, hr. 
