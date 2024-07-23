@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.class-1 {
+    color: cadetblue;
+    background: black;
+}
+
+#para-1 {
+    color: red;
+    background: floralwhite;
+}
+
+h1,h2 {
+    background: red;
+}
