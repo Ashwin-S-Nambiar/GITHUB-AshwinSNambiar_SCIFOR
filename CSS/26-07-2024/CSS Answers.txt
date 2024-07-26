@@ -1,0 +1,14 @@
+Q1. What is CSS? What are the different types of selectors in CSS?
+Ans: CSS or Cascading Style Sheets is used to handle the presentation of 
+     the webpage. It tells how to display HTML elements on the screen 
+     in a proper format.
+     Types of selectors in CSS are:
+     1. Class selector: used to select elements with a specific class.
+     2. Id selector: uses the id attribute of an element to select it.
+     3. Universal selector: select all the HTML elements on the page.
+     4. Grouping selector: used to select all the HTML elements with 
+                           same style definitions.
+
+Q2. What is CSS Box model?
+Ans: The CSS box model is essentially a box that wraps around every HTML element.
+     It consists of: content, padding, borders and margins.
