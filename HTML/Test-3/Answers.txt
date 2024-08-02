@@ -1,0 +1,4 @@
+Q1. What are semantic elements?
+Ans: A semantic element clearly describes its meaning to both the browser and the developer.
+     These help users to navigate and interact with a website in a better way to create well structured websites.
+     Examples are: <form>, <table>, <article> etc.
