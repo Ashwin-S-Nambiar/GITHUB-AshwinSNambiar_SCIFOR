@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>About Us - Shop</title>
+    <style>
+            body {
+            font-family: Poppins;
+            margin: 0;
+            padding: 0;
+            background: #0F2027;
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            user-select: none;
+            }
+            .logo {
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                cursor: pointer;
+            }
+
+            .logo > img {
+                width: 35px;
+                height: 35px;
+            }
+
+            header {
+                background: #0F2027;
+                color: #fff;
+                padding: 5px 0;
+                text-align: center;
+            }
+
+            header .logo h1 {
+                margin: 0;
+                font-size: 22px;
+            }
+
+            .logo > h1:hover {
+                color: #a2ab58;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            nav ul li a:hover {
+                color: #a2ab58;
+            }
+
+            main {
+                padding: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            #about {
+                text-align: center;
+                color: #fff;
+            }
+
+            #about > h2 {
+                margin: 0;
+                font-size: 30px;
+            }
+
+            .about-content {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-top: 20px;
+            }
+
+            .about-content img {
+                margin: 0;
+                max-width: 60%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                align-self: center;
+            }
+
+            .about-text {
+                display: flex;
+                max-width: 100%;
+            }
+
+            .group{
+                max-width: 35%;
+                text-align: center;
+                margin-left: 10px;
+            }
+
+            .about-text h3 {
+                margin: 0;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+
+            .about-text p {
+                margin: 0;
+                font-size: 12px;
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+
+            #contact {
+                padding: 20px;
+                text-align: center;
+            }
+            
+            #contact > h2 {
+                margin: 0;
+                margin-bottom: 10px;
+                color: #fff;
+            }
+
+            .contact-form {
+                max-width: 300px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+
+            .contact-form .form-group {
+                margin-bottom: 15px;
+                text-align: left;
+            }
+
+            .contact-form label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+
+            .contact-form input[type="text"],
+            .contact-form input[type="email"],
+            .contact-form textarea {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+
+            .contact-form button {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin-top: 10px;
+                display: block;
+                width: 100%;
+            }
+
+            .contact-form button:hover {
+                background-color: #555;
+            }
+
+
+            footer {
+                background: #0F2027;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                bottom: 0;
+                width: 100%;
+                position: relative;
+            }
+            footer > p {
+                font-size: 10px;
+            }
+
+            @media only screen and (max-width: 340px) {
+                .about-text {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo">
+            <img src="./img/logo.svg" alt="site logo">
+            <h1>Shop</h1>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./index.html#products">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <img src="./img/about-us.png" alt="About Us">
+                <div class="about-text">
+                    <div class="group">
+                    <h3>Our Story</h3>
+                    <p>Welcome to Shop! We started with a simple mission: to provide high-quality products at affordable prices. Our journey began in 2020, and since then, we’ve been dedicated to offering a wide range of products that meet the needs of our customers.</p>
+                    </div>
+                    <div class="group">
+                    <h3>Our Values</h3>
+                    <p>We believe in quality, affordability, and customer satisfaction. Our team works tirelessly to ensure that every product we offer is carefully selected and tested to meet our high standards. We are committed to sustainability and ethical sourcing, ensuring that our products are both environmentally friendly and socially responsible.</p>
+                    </div>
+                    <div class="group">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to make online shopping a seamless and enjoyable experience. We aim to provide our customers with an exceptional shopping experience, from browsing our product catalog to receiving their orders on time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>        
+    </main>
+    <footer>
+        <p>&copy; 2024 Shop.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
