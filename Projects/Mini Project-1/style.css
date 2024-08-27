@@ -196,7 +196,7 @@ footer ul li a:hover {
 
 @media (max-width: 600px) {
     footer {
-        text-align: left;
+        text-align: center;
     }
     
     footer div {
@@ -214,5 +214,10 @@ footer ul li a:hover {
 
     .product-item {
         width: 80%;
+    }
+
+    footer div {
+        font-size: 14px;
+
     }
 }
