@@ -51,10 +51,26 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    position: relative;
 }
 
 nav ul li a:hover {
     color: #a2ab58;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #a2ab58;
+    transition: all .5s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
 }
 
 main {
