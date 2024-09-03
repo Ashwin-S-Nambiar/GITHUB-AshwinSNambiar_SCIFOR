@@ -10,6 +10,9 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: black;
 }
 
@@ -71,12 +74,12 @@ nav ul li a:hover {
 }
 
 footer {
-    margin-top: 2em;
-    background-color: #222429;
+    margin-top: auto;
+    background-color: #111;
     padding: 1em;
     text-align: center;
-    min-height: 100%;
-    position: relative;
+    min-width: 100vw;
+    position: fixed;
     bottom: 0;
 }
 
@@ -103,8 +106,7 @@ footer {
         transition: all 0.5s;
     }
 
-    footer {
-        position: fixed;
-        bottom: 0;
+    .card:last-child {
+        margin-bottom: 4em;
     }
 }
