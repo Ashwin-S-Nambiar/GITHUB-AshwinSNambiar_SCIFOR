@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Site</title>
+</head>
+<body>
+     <nav>
+          <div class="logo">
+              <h1>Website</h1>
+          </div>
+          <ul id="menuList">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+          </ul>
+          <div class="menu-icon">
+              <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+          </div>
+     </nav>
+    <div class="grid-container">
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+            <h2>Card Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+       <div class="card">
+          <h2>Card Heading</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti asperiores in, veniam repudiandae architecto, totam eveniet nobis fugit tempora deserunt consectetur. Ullam molestiae eligendi eaque dicta asperiores excepturi laborum at.</p>
+       </div> 
+    </div>
+    <footer>
+          <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+    <script>
+          let menuList = document.getElementById("menuList")
+          menuList.style.maxHeight = "0px";
+
+          function toggleMenu(){
+               if(menuList.style.maxHeight == "0px")
+               {
+                    menuList.style.maxHeight = "300px";
+               }
+               else{
+                    menuList.style.maxHeight = "0px";
+               }
+          }
+     
+     </script>
+     <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>
