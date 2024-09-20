@@ -1,0 +1,86 @@
+<!-- Test-10 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API - Test-10</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <style>
+
+        body {
+            font-family: Poppins;
+            text-align: center;
+        }
+
+        button {
+            padding: 0.7em 0.9em;
+            font-size: 1rem;
+            font-family: inherit;
+            border: none;
+            background-color: #59E391;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 1em;
+        }
+      
+        .heading {
+            color: #59E391;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        .list {
+            border-radius: 8px;
+            padding: 1em;
+            list-style: none;
+            background-color: #F5F5F5;
+        }
+        
+        .list > li {
+            color: hotpink;
+        }
+
+        .list > .title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Fetch data from jsonplaceholder</h1>
+        <button id="fetchButton">Fetch Users</button>
+        <div id="output"></div>
+    </div>
+    <script>
+        document.getElementById('fetchButton').addEventListener('click', function() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(res => {
+                if (!res.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return res.json();
+            })
+            .then(data => {
+                let output = '<h2 class="heading">Users:</h2><ul class="list"><li class="title">Name  ---------  Email</li>';
+                data.forEach(user => {
+                    output += `<li>${user.name} - ${user.email}</li>`;
+                });
+                output += '</ul>';
+                document.getElementById('output').innerHTML = output;
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+                document.getElementById('output').innerHTML = '<p>Error fetching data.</p>';
+            });
+        });
+    </script>
+</body>
+</html>
