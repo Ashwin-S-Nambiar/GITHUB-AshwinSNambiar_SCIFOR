@@ -1,4 +1,4 @@
-# 📃 Assignments
+# 📝 Assignments
 
 ***Consists of Assignments done as part of the Front-end Training.***
 
