@@ -1,6 +1,6 @@
 # 🎯 Projects
 
-***Consists of Projecrs done as part of the Front-end Training.***
+***Consists of Projects done as part of the Front-end Training.***
 
 ## ⚒️ Tech Stack:
 - HTML 5
