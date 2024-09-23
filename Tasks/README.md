@@ -1,4 +1,4 @@
-# ✔️ Tasks
+# 📌 Tasks
 
 ***Consists of Tasks done as part of the Front-end Training.***
 
