@@ -1,4 +1,4 @@
-# 📃 Tests
+# 📋 Tests
 
 ***Consists of Tests done as part of the Front-end Training.***
 
