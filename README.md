@@ -3,9 +3,9 @@
 
 ## Repo Consists Of
 - **[Assignments](./Assignments)**
+- **[Projects](./Projects)**
 - **[Tasks](./Tasks)**
 - **[Tests](./Tests)**
-- **[Projects](./Projects)**
 
 ## Author
 **Ashwin S Nambiar**
