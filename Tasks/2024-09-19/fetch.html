@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Eg</title>
+</head>
+<body>
+    <h1>Dummy JSON</h1>
+    <button onclick="callAPI()">Find Dummy Data</button>
+    <div id="content"></div>
+</body>
+<script>
+    const div = document.getElementById("content")
+    function callAPI() {
+        fetch("https://dummyjson.com/products")
+            .then(res => res.json())
+            .then(data => {
+                    let i = Math.ceil(Math.random() * 50)
+                    const a = data.products[i].title
+                    div.innerHTML += `Title: ${a} <br>`
+
+            })
+
+    }
+</script>
+</html>

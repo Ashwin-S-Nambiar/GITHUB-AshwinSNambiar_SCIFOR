@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Test</title>
+    <script>
+        function loadDoc() {
+            let xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    document.getElementById("content").innerHTML = xhr.responseText;
+                }
+            };
+            xhr.open("GET", "index.html", true);
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <h1>AJAX Testing</h1>
+    <button onclick="loadDoc()">Load index.html</button>
+    <div id="content">
+    </div>
+</body>
+</html>

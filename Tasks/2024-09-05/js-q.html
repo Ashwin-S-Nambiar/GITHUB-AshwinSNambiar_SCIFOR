@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Enter variable a: "))
+        let b = parseInt(prompt("Enter variable b: "))
+        let c = parseInt(prompt("Enter variable c: "))
+        let result=""
+        if (a > b && b > c) {
+            result += 'A is the largest.<br>'
+        }
+
+        if (a < b || b < c) {
+            result += 'One of the conditions is true.<br>'
+        }
+
+        if (a !== c) {
+            result += 'A and C are not equal.<br>'
+        }
+        document.write("Result is: "+result)
+    </script>
+</body>
+</html>

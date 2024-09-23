@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find-Max</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Enter the first num: "))
+        let b = parseInt(prompt("Enter the second num: "))
+        let c = parseInt(prompt("Enter the third num: "))
+
+        function findMax(a,b,c) {
+            if (a >= b) {
+                if (a >= c)
+                    document.write("num1 is the largest number.")
+                else
+                    document.write("num3 is the largest number.")
+            }
+            else {
+                if (b >= c)
+                    document.write("num2 is the largest number.")
+                else
+                    document.write("num3 is the largest number.")
+            }
+        }
+
+        findMax(a,b,c)
+    </script>
+</body>
+</html>

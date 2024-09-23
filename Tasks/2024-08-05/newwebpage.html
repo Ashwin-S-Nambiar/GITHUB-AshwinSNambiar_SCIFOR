@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Variables</title>
+        <style>
+            :root {
+            --yellow: #ffff00;
+            --white: #ffffff; 
+            --red: #ff0000;
+            --green: #00ff99;
+            }
+
+            h1, h2, p {
+                text-align: center;
+            }
+
+            h1 {
+                background-color: var(--yellow);
+                border: 2px solid var(--green);
+                border-radius: 4px;
+            }    
+                
+            h2 {
+                background-color: var(--yellow);
+                border: 2px solid var(--green);
+                border-radius: 4px;
+                }  
+                
+            p {
+                color: var(--green);
+            }    
+        </style>
+    </head>
+    <body>
+        <h1>A Simple H1 Heading</h1>
+        <h2>A Simple H2 Heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consequuntur quidem similique velit exercitationem perspiciatis neque excepturi quo aut nobis eius, eaque dolores ullam maxime corporis pariatur illum ad voluptatum.</p>
+    </body>
+</html>

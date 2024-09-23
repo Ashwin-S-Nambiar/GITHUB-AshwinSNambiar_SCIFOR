@@ -1,0 +1,14 @@
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#name, #email, #password {
+    border-radius: 3px;
+    border: 2px solid black;
+    background: #BEBEBE;
+}
