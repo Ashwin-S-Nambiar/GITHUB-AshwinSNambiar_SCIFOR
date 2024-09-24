@@ -17,5 +17,5 @@
 - React
 
 ## Author
-**Ashwin S Nambiar**
+**Ashwin S. Nambiar**
   
