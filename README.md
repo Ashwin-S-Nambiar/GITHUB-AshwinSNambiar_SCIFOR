@@ -7,6 +7,14 @@
 - **[Tasks](./Tasks)**
 - **[Tests](./Tests)**
 
+## ⚒️ Tech Stack
+- HTML 5
+- CSS 3
+- JavaScript
+- Bootstrap
+- Foundation
+- React
+
 ## Author
 **Ashwin S Nambiar**
   
