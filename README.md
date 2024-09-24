@@ -13,6 +13,7 @@
 - JavaScript
 - Bootstrap
 - Foundation
+- AJAX
 - React
 
 ## Author
