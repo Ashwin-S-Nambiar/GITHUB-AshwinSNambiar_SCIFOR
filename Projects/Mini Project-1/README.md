@@ -1,8 +1,9 @@
 # 🎯 Mini Project-1
 
-Live: https://shoppe-site-online.netlify.app/
-
 ***Create the basic structure of an online store with proper styling.***
+
+**Live: https://shoppe-site-online.netlify.app/**
+
 ## ✅ Guidelines
 - **Structure**: Use HTML to create basuc structure of your online store, including
   such as the header, product listing, navigation menu and footer.
