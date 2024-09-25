@@ -15,7 +15,7 @@
 - **Animations**: Add simple CSS animations or transitions.
 - **Form Validation**: Check for empty fields and correct email format.
 - **Interactivity**: Add a "Back to Top" button.
-- **Navigation**: Create a responsive menuy that toggles according to different screen sizes.
+- **Navigation**: Create a responsive menu that toggles according to different screen sizes.
 
 ## ⚒️ Tech Stack
 - HTML 5
