@@ -9,7 +9,7 @@
 - Bootstrap
 
 ## 📂 Contents
-- Mini Project-1
-- Mini Project-2
+- [Mini Project-1](./Mini%20Project-1)
+- [Mini Project-2](./Mini%20Project-2)
 
 ## [Back To Main Folder](../)
