@@ -8,4 +8,8 @@
 - JavaScript
 - Bootstrap
 
+## 📂 Contents
+- Mini Project-1
+- Mini Project-2
+
 ## [Back To Main Folder](../)
