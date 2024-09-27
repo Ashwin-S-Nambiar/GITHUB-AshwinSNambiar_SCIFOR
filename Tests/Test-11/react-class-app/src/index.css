@@ -1,0 +1,19 @@
+body {
+    padding: 2em;
+}
+
+.container {
+    border: 2px solid lightcoral;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.container > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container > p {
+    font-size: 1.25rem;
+}
