@@ -8,5 +8,6 @@
 - JavaScript
 - Bootstrap
 - Foundation
+- React
 
 ## [Back To Main Folder](../)
