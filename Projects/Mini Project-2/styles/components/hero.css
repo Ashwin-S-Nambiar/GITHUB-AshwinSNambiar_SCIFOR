@@ -100,20 +100,28 @@
   }
 
   .hero__img {
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
   }
 
   .hero__subtitle {
     font-size: var(--size-4xl);
+    text-align: initial;
+    align-self: flex-start;
   }
 
   .hero__description {
     font-size: var(--size-xl);
+    text-align: initial;
+    align-self: flex-start;
   }
 
   .hero__btn {
     font-size: var(--size-xl);
+  }
+
+  .hero > .link-btns {
+    align-self: start;
   }
 }
 
