@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX + Fetch Eg</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .container {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            padding: 1em 1.25em;
+            border: 1px solid black;
+            border-radius: 4px;
+            background: lightblue;
+        }
+
+        button:focus:active {
+            background-color: aqua;
+        }
+
+        #datadiv {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #111;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Fetching DummyJSON API</h1>
+
+        <div class="btns">
+            <!-- Button for AJAX  -->
+            <button id="ajaxButton">Fetch using AJAX</button>
+            <!-- Button for Fetch -->
+            <button id="fetchButton">Fetch using Fetch API</button>
+        </div>
+    <!-- Div to display the data returned by after the API call     -->
+    <div id="datadiv">DummyJSON data here...</div>
+</div>
+
+<script>
+    const n = Math.floor(Math.random() * 100) + 1; //To get a random number 
+    const apiUrl1 = `https://dummyjson.com/products/${n}`; //Fetch a random product using the number
+    const dataDiv = document.getElementById('datadiv');
+
+    // Fetch data using AJAX (ajax button)
+    document.getElementById('ajaxButton').addEventListener('click', function() {
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", apiUrl1, true);
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                const data = JSON.parse(xhr.responseText);
+                displayData(data);
+            } else {
+                dataDiv.textContent = "Error fetching data via AJAX.";
+            }
+        };
+        xhr.send();
+    });
+
+    // Fetch data using Fetch API (fetch button)
+    document.getElementById('fetchButton').addEventListener('click', function() {
+        fetch(apiUrl1)
+            .then(response => response.json())
+            .then(data => displayData(data))
+            .catch(error => {
+                dataDiv.textContent = "Error fetching data via Fetch.";
+                console.error(error);
+            });
+    });
+
+    // Function to display data
+    function displayData(data) {
+        // dataDiv.textContent = JSON.stringify(data, null, 4);
+        dataDiv.innerHTML = `<h3>Product: ${data.title}</h3> <br>
+                                <h4>Price: ${data.price}</h4> <br> 
+                                <h4>Rating: ${data.rating}</h4> <br>
+                                <p>${data.description}</p> <br>
+        
+        `
+    }
+</script>
+
+</body>
+</html>
