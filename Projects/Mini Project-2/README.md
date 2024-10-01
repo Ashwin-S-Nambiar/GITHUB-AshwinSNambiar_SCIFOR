@@ -10,7 +10,7 @@
 - **Projects**: Grid of project thumbnails with titles and descriptions.
 - **Contact Form**: Fields for name, email, subject and message.
 - **Styling**: Apply styles to create a visually appealing layout.
-- **Responsive Design**: Use media queries and/or Bootstarp to improve responsiveness.
+- **Responsive Design**: Use media queries and/or Bootstrap to improve responsiveness.
 - **Layouts**: Use CSS Grid and Flexbox.
 - **Animations**: Add simple CSS animations or transitions.
 - **Form Validation**: Check for empty fields and correct email format.
