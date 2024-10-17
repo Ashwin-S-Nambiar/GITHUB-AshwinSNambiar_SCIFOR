@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <title>Counter App</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body {
+            font-family: Poppins;
+        }
+
+        button {
+            margin: 0 10px;
+            font-family: inherit;
+            border: 1px solid #111;
+            border-radius: 4px;
+        }
+
+        .container {
+            text-align: center; 
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+
+    function CounterApp() {
+      const [count, setCount] = React.useState(0);
+
+      const increment = () => setCount(count + 1);
+      const decrement = () => setCount(count - 1);
+      const reset = () => setCount(0);
+
+      return (
+        <div className="container">
+          <h1>Counter: {count}</h1>
+          <button onClick={increment}>Increment</button>
+          <button onClick={decrement}>Decrement</button>
+          <button onClick={reset}>Reset</button>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<CounterApp />);
+  </script>
+</body>
+</html>
