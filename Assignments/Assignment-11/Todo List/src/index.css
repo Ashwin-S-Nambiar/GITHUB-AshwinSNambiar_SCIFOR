@@ -1,0 +1,70 @@
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Poppins;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .add-todo {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .add-todo input {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #111;
+    border-radius: 6px;
+  }
+
+  .add-todo button {
+    padding: 1em 1.5em;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  li.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+
+  li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  li span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
