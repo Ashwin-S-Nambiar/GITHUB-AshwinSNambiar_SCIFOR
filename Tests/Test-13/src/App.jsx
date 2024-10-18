@@ -9,6 +9,10 @@ function App() {
 
   const fetchWeather = async () => {
     try {
+      if (city === ""){
+        setError('No City Name Entered! Please Enter City Name.');
+        return;
+      }
       const response = await fetch(
         `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`
       );
@@ -36,7 +40,7 @@ function App() {
       <div className="weather-form">
         <input
           type="text"
-          placeholder="Enter city name"
+          placeholder="Enter City Name"
           value={city}
           onChange={handleCityChange}
         />
