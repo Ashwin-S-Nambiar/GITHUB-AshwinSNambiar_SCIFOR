@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: Poppins;
 }
 
 .weather-form {
@@ -9,6 +9,7 @@
 
 input {
   padding: 10px;
+  font-family: inherit;
   margin-right: 10px;
   border: 2px solid #ccc;
   border-radius: 5px;
@@ -18,6 +19,7 @@ button {
   padding: 10px 20px;
   background-color: #007BFF;
   color: white;
+  font-family: inherit;
   border: none;
   border-radius: 5px;
   cursor: pointer;
