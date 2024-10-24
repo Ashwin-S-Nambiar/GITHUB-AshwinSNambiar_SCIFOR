@@ -1,8 +1,8 @@
 # 🎯 Mini Project-2
 
 ***Create a personal portfolio website.***
-
-**Live: https://meta-scifor-personal-portfolio.vercel.app/** 
+> [!NOTE]
+> **Live: https://meta-scifor-personal-portfolio.vercel.app/** 
 
 ## ✅ Guidelines
 - **Homepage**: Navigation bar, welcome message and links to sections.

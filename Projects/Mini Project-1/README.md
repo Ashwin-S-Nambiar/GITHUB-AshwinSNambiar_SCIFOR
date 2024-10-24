@@ -2,7 +2,8 @@
 
 ***Create the basic structure of an online store with proper styling.***
 
-**Live: https://shoppe-site-online.netlify.app/**
+> [!NOTE]
+> **Deployed Link: https://shoppe-site-online.netlify.app/**
 
 ## ✅ Guidelines
 - **Structure**: Use HTML to create basic structure of your online store, including
