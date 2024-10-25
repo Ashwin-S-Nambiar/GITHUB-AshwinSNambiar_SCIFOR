@@ -16,6 +16,6 @@
 - AJAX
 - React
 
-## Author
+## 👷‍♂️ Author
 **Ashwin S. Nambiar**
   
