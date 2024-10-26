@@ -7,6 +7,9 @@
 - CSS 3
 - JavaScript
 - Bootstrap
+- React
+- Vite
+- APIs
 
 ## 📂 Contents
 - [Mini Project-1](./Mini%20Project-1)
