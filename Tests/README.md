@@ -9,6 +9,8 @@
 - Bootstrap
 - Foundation
 - React
+- Vite
+- APIs
 - Rest APIs
 
 ## [Back To Main Folder](../)
