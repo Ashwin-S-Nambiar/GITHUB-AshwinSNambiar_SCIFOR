@@ -27,5 +27,4 @@
 ![shoppe-site-online netlify app_about](https://github.com/user-attachments/assets/734f98f7-b820-4c13-9b2d-a13957ffa80c)
 
 ## 👷‍♂️ Author
-Ashwin S. Nambiar
-
+**[Ashwin S. Nambiar](https://ashwin-s-nambiar.is-a.dev/)**
