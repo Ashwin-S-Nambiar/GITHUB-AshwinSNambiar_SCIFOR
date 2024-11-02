@@ -32,10 +32,14 @@
 body {
 	margin: 0;
 	min-width: 320px;
+	min-height: 100dvh;
 	box-sizing: border-box;
 	background-image: var(--url);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 	color: var(--text-color);
-	transition: background-image 0.3s ease-in, color 0.4s ease-in-out;
+	transition: background-image 0.3s ease-in, color 0.3s ease-in-out;
 	font-family: "Karla", sans-serif;
 	overflow-x: hidden;
 }
@@ -55,7 +59,7 @@ body {
 
 main {
 	position: relative;
-	min-height: 100vh;
+	transform: translateZ(0);
 }
 
 p, h1, h2, h3 {
@@ -76,12 +80,12 @@ footer {
 	left: 50%;
 	margin-left: -100px;
 	user-select: none;
-	transition: color 0.4s ease-in-out;
+	transition: color 0.3s ease-in-out;
 }
 
 footer > a {
 	color: var(--ques-text);
-	transition: color 0.4s ease-in-out;
+	transition: color 0.3s ease-in-out;
 }
 
 .btn-primary {
@@ -115,18 +119,15 @@ footer > a {
 	body {
 		will-change: background-image, color;
 		transition: 
-			background-image 1s ease-in-out,
+			background-image 0.3s ease-in-out,
 			color 0.3s ease-in-out;
-		transform: none; 
-		backface-visibility: visible; 
+		backface-visibility: hidden;
 	}
 
 	.theme-toggle {
 		position: fixed;
 		top: 0;
 		right: 0;
-		transform: none !important;
-		transition: none !important; 
 		margin: 0;
 		z-index: 9999;
 		pointer-events: auto;
@@ -137,7 +138,7 @@ footer > a {
 		background-image: var(--url);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		background-attachment: scroll;
 	}
 
 	footer, 
