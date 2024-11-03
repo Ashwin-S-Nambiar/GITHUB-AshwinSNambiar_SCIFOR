@@ -9,6 +9,7 @@
 
 > [!NOTE]
 > ***The website is also responsive, which is done with the help of `media queries` so the users will have no issues while accessing it on devices with varying screen sizes.***
+> 
 > ***The animations and transitions are smooth and fluid for `Questions Page` and page transitions.***
 
 ## 🛠️ Tech Stack
