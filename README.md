@@ -1,5 +1,5 @@
 # 👨‍💻 Meta Scifor Front-end Training
-***Contains mainly of Assignments, Projects, Tasks and Tests done during the training for Front-end Development Internship.***
+***Contains mainly of Assignments, Projects, Tasks and Tests done during the training for Front-end Development Internship for Meta Scifor Technologies.***
 
 ## Repo Consists Of
 - **[Assignments](./Assignments)**
