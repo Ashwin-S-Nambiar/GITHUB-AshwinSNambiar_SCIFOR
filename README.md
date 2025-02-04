@@ -12,7 +12,7 @@
 
 Front-end Development Training Repository containing all assignments, projects, and assessments completed during Meta Scifor Technologies internship.
 
-[Repository Contents](#-repository-contents) • [Tech Stack](#tech-stack) • [Author](#-author)
+[Repository Contents](#-repository-contents) • [Tech Stack](#️-tech-stack) • [Author](#-author)
 
 </div>
 
